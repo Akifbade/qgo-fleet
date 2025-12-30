@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Login from './components/Login';
 import { db, isConfigured } from './services/firebase';
-import { collection, onSnapshot, addDoc, updateDoc, doc, query, orderBy, getDocs, setDoc, getDoc, deleteDoc } from "firebase/firestore";
+import { collection, onSnapshot, addDoc, updateDoc, doc, query, orderBy, getDoc, setDoc, deleteDoc } from "firebase/firestore";
 
 const App: React.FC = () => {
   const [user, setUser] = useState<{ role: ViewMode; id?: string } | null>(null);
