@@ -183,7 +183,7 @@ const App: React.FC = () => {
               <button onClick={() => setShowRulesHelper(false)} className="text-white/50 hover:text-white"><i className="fas fa-times text-xl"></i></button>
             </div>
             <div className="p-8 space-y-4">
-              <p className="text-sm font-bold text-gray-600">Paste this in your Firebase Console > Firestore > Rules:</p>
+              <p className="text-sm font-bold text-gray-600">Paste this in your Firebase Console &gt; Firestore &gt; Rules:</p>
               <pre className="bg-gray-100 p-4 rounded-xl font-mono text-xs text-blue-800">
 {`rules_version = '2';
 service cloud.firestore {
