@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { ViewMode, Driver, Job, ReceiptEntry, JobStatus } from './types';
 import { LOGO_URL, MOCK_DRIVERS, MOCK_JOBS } from './constants';
